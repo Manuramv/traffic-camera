@@ -129,4 +129,3 @@ class TrafficCameraFragment : Fragment(), Injectable, OnMapReadyCallback,
         })
     }
 }
-//8d655fc94ae572948b14ee458d92d5a5dc2daa8b
