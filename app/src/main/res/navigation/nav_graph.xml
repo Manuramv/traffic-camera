@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/trafficCamerafragment">
+
+    <fragment
+        android:id="@+id/trafficCamerafragment"
+        android:name="com.zuhlke.map.ui.trafficcamera.TrafficCameraFragment"
+        tools:layout="@layout/fragment_traffic_camera" >
+        <action
+            android:id="@+id/action_trafficFragment_to_cameraImageFragment"
+            app:destination="@id/cameraImageFragment"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cameraImageFragment"
+        android:name="com.zuhlke.map.ui.cameraimage.CameraImageFragment"
+        tools:layout="@layout/fragment_traffic_camera">
+    </fragment>
+</navigation>
