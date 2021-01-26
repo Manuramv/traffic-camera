@@ -11,6 +11,12 @@ This app will show the list of Traffic Cameras in the Singapore and by clicking 
 ![Traffic Camera App](https://user-images.githubusercontent.com/31012185/105797432-eda55500-5fca-11eb-9c6c-9bfcf78544b5.png)
 *Fig. 1: Demonstrating App*
 
+![Traffic Camera App](https://user-images.githubusercontent.com/31012185/105797572-31985a00-5fcb-11eb-9915-9205242d1f3d.gif)
+*Fig. 1: Showing the Traffic cameras and Markr click*
+
+
+![Traffic Camera App](https://user-images.githubusercontent.com/31012185/105797828-bbe0be00-5fcb-11eb-9093-132392c26539.gif)
+*Fig. 1: Error Case*
 
 
 # Built With
