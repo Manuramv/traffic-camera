@@ -1,6 +1,15 @@
 # Traffic Camera
-This app will show the list of Traffic Cameras in the Singapore and by clicking on the map marker you can see the last photo captured by the camera.
+This app will show the list of Traffic Cameras in the Singapore and by clicking on the map marker you can see the latest photo captured by the camera.
 
+
+![Traffic Camera App](https://user-images.githubusercontent.com/31012185/105796826-a4550580-5fca-11eb-85f1-4d462f817acd.png)
+*Fig. 1: Demonstrating App*
+
+![Traffic Camera App](https://user-images.githubusercontent.com/31012185/105797229-d2d2e080-5fca-11eb-9cb6-dd409945368a.png)
+*Fig. 1: Demonstrating App*
+
+![Traffic Camera App](https://user-images.githubusercontent.com/31012185/105797432-eda55500-5fca-11eb-9c6c-9bfcf78544b5.png)
+*Fig. 1: Demonstrating App*
 
 
 
