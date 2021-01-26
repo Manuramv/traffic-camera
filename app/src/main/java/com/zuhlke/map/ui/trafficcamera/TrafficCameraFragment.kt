@@ -100,7 +100,7 @@ class TrafficCameraFragment : Fragment(), Injectable, OnMapReadyCallback,
             val marker = mMap?.addMarker(markerOptions)
             marker?.tag = it
             marker?.showInfoWindow()
-            mMap?.animateCamera(CameraUpdateFactory.newLatLngZoom(LatLng(it.lat, it.longitude),18f))
+            mMap?.animateCamera(CameraUpdateFactory.newLatLngZoom(LatLng(it.lat, it.longitude),12f))
             mMap?.setOnMarkerClickListener(this)
         }
     }
