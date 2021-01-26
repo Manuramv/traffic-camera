@@ -1,0 +1,38 @@
+# Traffic Camera
+This app will show the list of Traffic Cameras in the Singapore and by clicking on the map marker you can see the last photo captured by the camera.
+
+
+
+
+# Built With
+  Kotlin
+
+# Architectural Pattern
+- Used MVVM as the code can be easily reused and binding makes UI updates easier to handle. 
+- This architecture makes the code more modular so maintainability of code in future will be more easy
+- `LiveData` - **LiveData** to update the UI automatically when the data updates. We Used LiveData extensively to communicate between view and viewmodel. Whenever the API call is success it will update the UI automatically according to our design.
+
+
+
+#  Data Binding & 2 Way data Binding
+- I've followed the data binding approach to bind the views with classes and view models,so that I can perform the UI actions with less code and directly from viewmodel.We have extensively used data binding in this application wherever it's possible. 
+- My Activity class and Spinner Adapter looks very clean.
+- `Binding Adapters` used for the `Imageview` and `Textview`
+    
+# Other Important Libraries Used:
+- `Retrofit` - For networking calls
+- `Glide` - To Render the Image.
+ # Packages in the App:
+    - Binders- Binding adapters (ImageBinder, TextBinder)
+    - Data - Retrofit API related class and repository classes under sub repositroy project.
+    - Model - Model classes and kotlin data classes
+    - UI - Views and Viewmodels
+    - Utils - Date utils, Constants and Alert Classes.
+    
+# Supported version
+Android 21(5.0)
+
+# Further Enhancements(Improvements that could be done to this App)
+- We can add test cases.
+
+
