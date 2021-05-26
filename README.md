@@ -20,7 +20,7 @@ This app will show the list of Traffic Cameras in the Singapore and by clicking 
 
 
 # Built With
-  Kotlin
+  Kotlin.
 
 # Architectural Pattern
 - Used MVVM as the code can be easily reused and binding makes UI updates easier to handle. 
